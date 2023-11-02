@@ -79,7 +79,7 @@
     top: 0;
     bottom: 0;
     background: #cb1c22;
-    width: 80%;
+    width:86%;
   }
   
   .productMoney__moneyFake {
@@ -100,7 +100,7 @@
     position: relative;
     margin-top: 20px;
     background: #f8f9fa;
-    padding: 9px 10px 0;
+    padding: 15px 10px;
     border-radius: 6px;
     width: 300px;
     padding: 10px;
