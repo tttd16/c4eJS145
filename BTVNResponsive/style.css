@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    font-family: "Raleway", sans-serif;
+    line-height: 1.5;
+    font-size: 1.2rem;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+
+header > p > span {
+    background-color: #000000;
+    color: #fff;
+    padding: 4px;
+}
+
+
+.content__container > p {
+    opacity: 0.8;
+}
+
+#wrapper {
+    display: flex;
+}
+
+#content__1 {
+    flex-grow: 2;
+    padding: 20px;
+}
+
+.content__blog {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
+}
+
+.content__container {
+    padding: 40px;
+}
+
+
+.content__opacity {
+    opacity: 0.6;
+}
+
+.content__row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+.btn:hover {
+    padding: 10px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.content__comment {
+    display: flex;
+}
+
+
+.content__comment--tag {
+    padding: 5px;
+    border-radius:5px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.content__comment--bag {
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: #fff;
+}
+
+
+#content__2 {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.content__2--blog {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin-bottom: 20px;
+}
+
+.content__2--blog-title {
+    background-color: #f1f1f1;
+    padding: 16px
+}
+
+.content__2--list {
+    list-style-type: none;
+}
+
+.list__style {
+    display: flex;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+}
+
+.list__style:hover {
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+
+.list__style > img {
+    margin-right: 8px;
+}
+
+.list__tag {
+    display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.list__tag--black {
+    color: #fff;
+    background-color: #000000;
+}
+
+.list__tag--grey {
+    color: #000000;
+    background-color: #f1f1f1;
+}
+
+
+footer {
+    background-color: #616161;
+}
+
+.btn__footer {
+    padding: 12px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    margin-bottom: 16px;
+}
+
+.btn__footer:hover {
+    background-color: #ccc;
+    color: #000000;
+    cursor: pointer;
+}
+
+.btn__footer--grey {
+    opacity: 0.6;
+}
+
+footer > p, a {
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 900px) {
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+  }
