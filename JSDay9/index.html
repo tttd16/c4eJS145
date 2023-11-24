@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      margin-left: 20px;
+    }
+
+    #wrapper {
+      display: grid;
+      width: 300px;
+      height: 300px;
+      margin-left: 50%;
+      margin-top: 20px;
+      transform: translate(-50%, 0);
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 100px);
+    }
+
+    .square {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid #ccc;
+      font-size: 50px;
+    }
+    .square:hover {
+      cursor: pointer;
+      background-color: aqua;
+    }
+  </style>
+  <body>
+    <button id="clearSquare">Clear Caro</button>
+    <div id="wrapper">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div>
+
+    <form action="">
+      <label for="username">Username:</label><br />
+      <input type="text" id="username" name="username" value="" /><br />
+      <label for="password">Password:</label><br />
+      <input type="text" id="password" name="password" value="" /><br />
+      <button id="btnSubmit">Submit</button>
+    </form>
+    <div id="container"></div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
